@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Yadham Swara 2023</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=640px,height=1280px, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="animation.css" rel="stylesheet" />
+    <link rel="preload" href="lamp.gif" as="image">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <img class="background" src="FCT.png"/>
+
+  <div class="container" style="align-items: center; height: 100%; margin-top: 50px;" >
+
+
+        <div class="row hidelamps">
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="aa1" src="lamptr.png" height="80px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="aa2" src="lamptr.png"  height="80px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="aa3" src="lamptr.png"  height="80px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="aa4" src="lamptr.png" height="80px" width="auto" />
+                </div>
+            </div>
+        </div>
+ 
+
+
+
+        
+        <div class="row lamps">
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="lamp1" src="lamp.png" onclick="changeImage1()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="lamp2" src="lamp.png" onclick="changeImage2()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="lamp3" src="lamp.png" onclick="changeImage3()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="lamp4" src="lamp.png" onclick="changeImage4()" height="120px" width="auto" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row lamps">
+            <div class="col-4" style="text-align: center;">
+                <div>
+                    <img id="lamp5" src="lamp.png" onclick="changeImage5()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-4" style="text-align: center;">
+                <div>
+                    <img id="lamp6" src="lamp.png" onclick="changeImage6()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-4" style="text-align: center;">
+                <div>
+                    <img id="lamp7" src="lamp.png" onclick="changeImage7()" height="120px" width="auto" />
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row lamps">
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="lamp8" src="lamp.png" onclick="changeImage8()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="lamp9" src="lamp.png" onclick="changeImage9()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="lamp10" src="lamp.png" onclick="changeImage10()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="lamp11" src="lamp.png" onclick="changeImage11()" height="120px" width="auto" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row lamps">
+            <div class="col-4" style="text-align: center;">
+                <div>
+                    <img id="lamp12" src="lamp.png" onclick="changeImage12()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-4" style="text-align: center;">
+                <div>
+                    <img id="lamp13" src="lamp.png" onclick="changeImage13()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-4" style="text-align: center;">
+                <div>
+                    <img id="lamp14" src="lamp.png" onclick="changeImage14()" height="120px" width="auto" />
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row lamps">
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="lamp15" src="lamp.png" onclick="changeImage15()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="lamp16" src="lamp.png" onclick="changeImage16()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="lamp17" src="lamp.png" onclick="changeImage17()" height="120px" width="auto" />
+                </div>
+            </div>
+
+            <div class="col-3" style="text-align: center;">
+                <div>
+                    <img id="lamp18" src="lamp.png" onclick="changeImage18()" height="120px" width="auto" />
+                </div>
+            </div>
+        </div>
+
+       
+
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+  <div class="circle-container">
+    <div class="circle"></div>
+  </div>
+
+
+  
+</div>
+
+
+
+ <script>
+        var lamp1sta, lamp2sta, lamp3sta, lamp4sta, lamp5sta, lamp6sta, lamp7sta, lamp8sta, lamp9sta, lamp10sta, lamp11sta, lamp12sta, lamp13sta, lamp14sta, lamp15sta, lamp16sta, lamp17sta, lamp18sta;
+        
+        function changeImage1() {
+            var image = document.getElementById("lamp1");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp1sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp1sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+            setTimeout(vidpage, 3000);
+                }
+            }
+
+        }
+
+        function changeImage2() {
+            var image = document.getElementById("lamp2");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp2sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp2sta = '1';
+                
+               if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+            setTimeout(vidpage, 3000);
+                }
+            }
+
+        }
+
+        function changeImage3() {
+            var image = document.getElementById("lamp3");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp3sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp3sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+            setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage4() {
+            var image = document.getElementById("lamp4");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp4sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp4sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+            setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage5() {
+            var image = document.getElementById("lamp5");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp5sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp5sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+            setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage6() {
+            var image = document.getElementById("lamp6");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp6sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp6sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+            setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage7() {
+            var image = document.getElementById("lamp7");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp7sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp7sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+            setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage8() {
+            var image = document.getElementById("lamp8");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp8sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp8sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+            setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage9() {
+            let LID = "9";
+            var image = document.getElementById("lamp9");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp9sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp9sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+            setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage10() {
+            var image = document.getElementById("lamp10");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp10sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp10sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+            setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage11() {
+            var image = document.getElementById("lamp11");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp11sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp11sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+                    setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage12() {
+            var image = document.getElementById("lamp12");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp12sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp12sta = '1';
+                
+               if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+                    setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage13() {
+            var image = document.getElementById("lamp13");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp13sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp13sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+                    setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage14() {
+            var image = document.getElementById("lamp14");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp14sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp14sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+                    setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage15() {
+            var image = document.getElementById("lamp15");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp15sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp15sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+                    setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage16() {
+            var image = document.getElementById("lamp16");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp16sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp16sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+                    setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage17() {
+            var image = document.getElementById("lamp17");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp17sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp17sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+                    setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+        function changeImage18() {
+            var image = document.getElementById("lamp18");
+            if (image.src.match("lamp.gif")) {
+                image.src = "lamp.png";
+                lamp18sta = "0";
+                
+            } else {
+                image.src = "lamp.gif";
+                lamp18sta = '1';
+                
+                if ((lamp1sta=='1')&&(lamp2sta=='1')&&(lamp3sta=='1')&&(lamp4sta=='1')&&(lamp5sta=='1')&&(lamp6sta=='1')&&(lamp7sta=='1')&&(lamp8sta=='1')&&(lamp9sta=='1')&&(lamp10sta=='1')&&(lamp11sta=='1')&&(lamp12sta=='1')&&(lamp13sta=='1')&&(lamp14sta=='1')&&(lamp15sta=='1')&&(lamp16sta=='1')&&(lamp17sta=='1')&&(lamp18sta=='1')) {
+                    setTimeout(vidpage, 3000);
+                }
+            }
+        }
+
+
+        // function vidpage() {
+        //     window.location.replace("page2.html");
+        // }
+
+        function vidpage() {
+            document.querySelector('body').classList.add('fade-out');
+            setTimeout(() => {
+                window.location.replace("page2.html");
+            }, 1000); // Wait for the transition to complete
+        }
+
+
+
+        const links = document.querySelectorAll('.fade-out');
+        
+        links.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const target = link.getAttribute('href');
+                document.querySelector('body').classList.add('fade-out');
+                setTimeout(() => {
+                    window.location.href = target;
+                }, 500); // Wait for the transition to complete
+            });
+        });
+        
+
+
+    </script>
+
+   
+    
+</body>
+
+</html>
