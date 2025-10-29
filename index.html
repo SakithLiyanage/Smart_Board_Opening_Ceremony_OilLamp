@@ -9,6 +9,7 @@
     <link href="style.css" rel="stylesheet" />
     <link href="animation.css" rel="stylesheet" />
     <link rel="preload" href="lamp.gif" as="image">
+    <link rel="preload" href="Danno_Budunge_Nanda_Malani_Sarigama_lk.mp3" as="audio">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
@@ -18,6 +19,12 @@
 <body>
 
   <img class="background" src="FCT.png"/>
+  
+  <!-- Ceremonial Background Music -->
+  <audio id="ceremonyAudio" preload="auto">
+    <source src="Danno_Budunge_Nanda_Malani_Sarigama_lk.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 
   <div class="container" style="align-items: center; height: 100%; margin-top: 20px;" >
     
@@ -25,14 +32,12 @@
     <div class="row" style="margin-bottom: 20px;">
       <div class="col-12" style="text-align: center;">
         <h1 style="color: #C41E3A; font-weight: bold; font-size: 28px; margin: 10px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-          Mahinda Rajapaksha College Homagama
+          Smart Class Room Open Ceremony - Commerce Section 
         </h1>
         <h2 style="color: #D4AF37; font-size: 20px; margin: 5px 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">
-          Smart Board Opening Ceremony
+          Lightning The Oil lamp
         </h2>
-        <p style="color: #FFFFFF; font-size: 14px; margin: 10px 0; background: rgba(196, 30, 58, 0.7); padding: 8px 15px; border-radius: 5px; display: inline-block;">
-          Light the Lamps to Commence the Ceremony
-        </p>
+        
       </div>
     </div>
 
@@ -642,6 +647,7 @@
         // Smart Board Optimized Lamp Lighting System
         const TOTAL_LAMPS = 18;
         const lampStates = {};
+        let isAudioPlaying = false;
         
         // Initialize lamp states
         for (let i = 1; i <= TOTAL_LAMPS; i++) {
@@ -689,10 +695,29 @@
                 image.src = "lamp.gif";
                 lampStates[lampId] = '1';
                 
+                // Play ceremonial music on first lamp
+                if (!isAudioPlaying) {
+                    playCeremonialAudio();
+                    isAudioPlaying = true;
+                }
+                
                 // Check if all lamps are lit
                 if (checkAllLampsLit()) {
                     setTimeout(vidpage, 2000); // Reduced delay for faster response
                 }
+            }
+        }
+
+        // Play ceremonial background music
+        function playCeremonialAudio() {
+            const audio = document.getElementById('ceremonyAudio');
+            if (audio) {
+                audio.volume = 0.7; // Set volume to 70%
+                audio.currentTime = 0; // Start from beginning
+                audio.play().catch(err => {
+                    console.log('Audio playback prevented:', err);
+                    // Some browsers require user interaction for autoplay
+                });
             }
         }
 
@@ -708,6 +733,10 @@
 
         // Page transition with fade effect
         function vidpage() {
+            const audio = document.getElementById('ceremonyAudio');
+            if (audio) {
+                audio.pause(); // Stop music during transition
+            }
             document.querySelector('body').classList.add('fade-out');
             setTimeout(() => {
                 window.location.replace("page2.html");
