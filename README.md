@@ -159,6 +159,6 @@ This project is created specifically for Mahinda Rajapaksha College Homagama Sma
 
 ---
 
-**Created for**: Smart Board Opening Ceremony 2024  
+**Created for**: Smart Board Opening Ceremony 2025 
 **Institution**: Mahinda Rajapaksha College Homagama  
 **Event Theme**: Unity, Technology, and Progress
