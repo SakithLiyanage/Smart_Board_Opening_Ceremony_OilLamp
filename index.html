@@ -32,7 +32,7 @@
     <div class="row" style="margin-bottom: 20px;">
       <div class="col-12" style="text-align: center;">
         <h1 style="color: #C41E3A; font-weight: bold; font-size: 28px; margin: 10px 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
-          Smart Class Room Open Ceremony - Commerce Section 
+          Smart Class Room Opening Ceremony - Commerce Section 
         </h1>
         <h2 style="color: #D4AF37; font-size: 20px; margin: 5px 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">
           Lightning The Oil lamp
@@ -737,10 +737,8 @@
             if (audio) {
                 audio.pause(); // Stop music during transition
             }
-            document.querySelector('body').classList.add('fade-out');
-            setTimeout(() => {
-                window.location.replace("page2.html");
-            }, 1000);
+            // Remain on the page with all lamps lit
+            console.log('All lamps are lit!');
         }
 
         // Handle link navigation
