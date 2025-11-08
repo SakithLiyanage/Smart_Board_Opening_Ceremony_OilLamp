@@ -146,18 +146,6 @@ This interactive experience:
 
 ---
 
-## 👥 Contact & Support
-
-For technical support or modifications:
-- Contact the IT department at Mahinda Rajapaksha College Homagama
-
----
-
-## 📄 License
-
-This project is created specifically for Mahinda Rajapaksha College Homagama Smart Board Opening Ceremony.
-
----
 
 **Created for**: Smart Board Opening Ceremony 2025 
 **Institution**: Mahinda Rajapaksha College Homagama  
